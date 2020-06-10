@@ -34,8 +34,8 @@ from classification_utils import (
     convert_examples_to_features,
 )
 
-from simpletransformers.classification.transformer_models.bert_model import BertForSequenceClassification
-from simpletransformers.classification.transformer_models.xlnet_model import XLNetForSequenceClassification
+from transformer_models.bert_model import BertForSequenceClassification
+from transformer_models.xlnet_model import XLNetForSequenceClassification
 from config.global_args import global_args
 import wandb
 
