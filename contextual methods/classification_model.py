@@ -118,23 +118,8 @@ class ClassificationModel:
         self.args["model_name"] = model_name
         self.args["model_type"] = model_type
 
-        # if model_type in ["camembert", "xlmroberta"]:
-        #     warnings.warn(
-        #         f"use_multiprocessing automatically disabled as {model_type}"
-        #         " fails when using multiprocessing for feature conversion."
-        #     )
-        #     self.args["use_multiprocessing"] = False
-
         self.args["model_name"] = model_name
         self.args["model_type"] = model_type
-
-        # if model_type in ["camembert", "xlmroberta"]:
-        #     warnings.warn(
-        #         f"use_multiprocessing automatically disabled as {model_type}"
-        #         " fails when using multiprocessing for feature conversion."
-        #     )
-        #     self.args["use_multiprocessing"] = False
-
 
         self.counter = 0
 
