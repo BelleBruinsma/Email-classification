@@ -21,7 +21,7 @@ from sklearn.linear_model import LogisticRegression
 
 
 # load unlabeled data
-df_unlabeled = pd.read_csv('../data/label_prediction_logging.csv', sep=',')
+df_unlabeled = pd.read_csv('../data/.csv', sep=',')
 df_unlabeled = df_unlabeled[['input_text']]
 df_unlabeled.columns = ['text']
 
@@ -40,7 +40,7 @@ trigram_mod = gensim.models.phrases.Phraser(trigram)
 df_unlab = trigram_mod[bigram_mod[data_words]]
 
 # load labeled data
-df_labeled = pd.read_csv('../data/27-03.csv', header=None, sep=';')
+df_labeled = pd.read_csv('../data/', header=None, sep=';')
 df_labeled.columns = ['text', 'label']
 
 
