@@ -2,7 +2,7 @@
 
 In this repository one can find all related code to the Master thesis 'Email classification' by Belle Bruinsma. This research was carried out during a Master degree in Artificial Intelligence on the Vrije Universiteit of Amsterdam.
 
-The thesis was done in cooperation with Ciphix, all code pertaining data of Ciphix is not publicly available.
+The thesis was done in cooperation with Ciphix, all code pertaining data of Ciphix is not publicly available. The requirements.txt file contains all installed libraries required for running the code on this Github.
 
 The directory contains the following subdirectories:
 
