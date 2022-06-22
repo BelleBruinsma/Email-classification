@@ -47,7 +47,7 @@ language-selector==0.1
 MarkupSafe==1.0
 matplotlib==3.2.1
 netifaces==0.10.4
-numpy==1.18.1
+numpy==1.22.0
 nvidia-ml-py3==7.352.0
 oauthlib==2.0.6
 packaging==20.4
